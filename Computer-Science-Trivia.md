@@ -55,7 +55,22 @@ or RAID level, provides a different balance among the key goals: reliability, av
 
 ### Difference between static and dynamic linking
 
-Static linking - links all library modules into an executable. It is done by a linker in the 
+Static Linking : 
+* links all library modules into an executable. It is done by a linker in the 
 compilation process. The linker combines library routines with the program code in order to resolve 
 external references, and to generate an executable image suitable for loading into 
 memory.
+* Statically linked files are significantly larger in size because external programs
+* if any of the external programs has changed then they have to be recompiled and re-linked
+* Programs that use statically-linked libraries are usually faster
+* Programs that use statically-linked libraries are usually faster
+
+Dynamic Linking :
+* The names of the external libraries (shared libraries) are placed in the final executable file 
+while the actual linking takes place at run time when both executable file and libraries are placed 
+in the memory
+* In dynamic linking only one copy of shared library is kept in memory. 
+This significantly reduces the size of executable programs
+* In dynamic linking this is not the case and individual shared modules can be updated 
+and recompiled.
+* Dynamically linked programs are dependent on having a compatible library.
