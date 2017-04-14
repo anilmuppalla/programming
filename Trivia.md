@@ -1,4 +1,4 @@
-#### What is swapping? 
+### What is swapping? 
 
 Swapping is a simple memory/process management technique used by an 
 operating system to increase processor utilization by moving some blocked process from the main memory to the secondary memory. The execution continues with the newly arrived process. After performing the swapping process, the operating system has two options in selecting a process for execution :
@@ -7,7 +7,7 @@ operating system to increase processor utilization by moving some blocked proces
  
  ![Process Execution](http://blog.sudobits.com/wp-content/uploads/2010/08/swapping.png)
 
-#### Memory access and Storage
+### Memory access and Storage
 
 Computer Memory can be classified as :
  * Registers - Internal register in a CPU is used for holding variables and temporary results
