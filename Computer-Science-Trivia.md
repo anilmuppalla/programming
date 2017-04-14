@@ -53,6 +53,8 @@ on the required level of redundancy and performance. The different schemes, or d
 layouts, are named by the word RAID followed by a number, for example RAID 0 or RAID 1. Each schema, 
 or RAID level, provides a different balance among the key goals: reliability, availability, performance, and capacity.
 
+[..more](https://en.wikipedia.org/wiki/RAID)
+
 ### Difference between static and dynamic linking
 
 Static Linking : 
