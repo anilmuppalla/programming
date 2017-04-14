@@ -10,4 +10,6 @@ operating system to increase processor utilization by moving some blocked proces
 #### Memory access and Storage
 
 
-[..more](http://www.moreprocess.com/devices/computer-memory-hierarchy-internal-register-cache-ram-hard-disk-magnetic-tape)
+[Computer Memory Hierarchy]('https://i2.wp.com/moreprocess
+.com/wp-content/images/devices/Computer%20memory%20hierarchy
+%20Internal%20register,%20cache,%20RAM,%20hard%20disk,%20magnetic%20tape.jpg?zoom=2&resize=444%2C418')
