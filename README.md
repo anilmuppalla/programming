@@ -1,3 +1,3 @@
 # programming
 
-* [Computer Science Trivia](./Trivia.md)
+* [Computer Science Trivia](Computer-Science-Trivia.md)
