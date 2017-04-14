@@ -5,7 +5,9 @@ operating system to increase processor utilization by moving some blocked proces
  * Operating System can admit newly created process
  * Operating system can activate suspended process from the swap memory.
  
- ![Process Execution] (http://blog.sudobits.com/wp-content/uploads/2010/08/swapping.png)
+ ![Process Execution](http://blog.sudobits.com/wp-content/uploads/2010/08/swapping.png)
 
 #### Memory access and Storage
 
+
+[..more](http://www.moreprocess.com/devices/computer-memory-hierarchy-internal-register-cache-ram-hard-disk-magnetic-tape)
