@@ -19,3 +19,18 @@ Computer Memory can be classified as :
  * Hard Disk - is a data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material. The platters are paired with magnetic heads, usually arranged on a moving actuator arm, which read and write data to the platter surfaces.
 
 ![Computer Memory Hierarchy](https://i2.wp.com/moreprocess.com/wp-content/images/devices/Computer%20memory%20hierarchy%20Internal%20register,%20cache,%20RAM,%20hard%20disk,%20magnetic%20tape.jpg?zoom=2&resize=444%2C418')
+
+### Difference between CISC and RISC
+
+RISC (Reduced Instruction Set Computing) and CISC (Complex Instruction Set Computing) are two computer architectures that are predominantly used nowadays. The main difference between RISC and CISC is in the number of computing cycles each of their instructions take. With CISC, each instruction may utilize a much greater number of cycles before completion than in RISC.
+
+The reason behind the difference in number of cycles utilized is the complexity and goal of their instructions. In RISC, each instruction is only meant to achieve a very small task. So if you want a complex task done, then you need a lot of these instructions strung together. With CISC, each instruction is similar to a high level language code. You only need a few instructions to get what you want as each instruction does a lot.
+
+[..more](http://www.differencebetween.net/technology/protocols-formats/difference-between-risc-and-cisc/)
+
+### RAID
+
+RAID is a data storage virtualization technology that combines multiple physical disk drive 
+components into a single logical unit for the purposes of data redundancy, performance improvement, or both.
+
+Data is distributed across the drives in one of several ways, referred to as RAID levels, depending on the required level of redundancy and performance. The different schemes, or data distribution layouts, are named by the word RAID followed by a number, for example RAID 0 or RAID 1. Each schema, or RAID level, provides a different balance among the key goals: reliability, availability, performance, and capacity.
