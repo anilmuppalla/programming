@@ -76,3 +76,17 @@ This significantly reduces the size of executable programs
 * In dynamic linking this is not the case and individual shared modules can be updated 
 and recompiled.
 * Dynamically linked programs are dependent on having a compatible library.
+
+### Instruction Pipelining
+
+Instruction pipelining is a technique that implements a form of parallelism called instruction-level 
+parallelism within a single processor. It therefore allows faster CPU throughput 
+(the number of instructions that can be executed in a unit of time) than would otherwise be possible 
+at a given clock rate. The basic instruction cycle is broken up into a series called a pipeline. 
+Rather than processing each instruction sequentially (finishing one instruction before starting the next), 
+each instruction is split up into a sequence of dependent steps so different steps can be executed 
+in parallel and instructions can be processed concurrently (starting one instruction before finishing 
+the previous one).
+
+[..more](https://en.wikipedia.org/wiki/Instruction_pipelining)
+
