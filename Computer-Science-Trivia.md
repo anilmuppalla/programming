@@ -97,13 +97,11 @@ systems
 are systems in which the most significant byte of the word is stored in the smallest address given 
 and the least significant byte is stored in the largest. 
 
-![Big Endian](https://en.wikipedia.org/wiki/Endianness#/media/File:Big-Endian.svg)
-
 **Little endian** systems are those in 
 which the least significant byte is stored in the smallest address and and the most significant
 byte is stored in the largest.
 
-![Little Endian](https://en.wikipedia.org/wiki/Endianness#/media/File:Little-Endian.svg)
+![Endian](https://www.anintegratedworld.com/wp-content/uploads/2016/02/Screen-Shot-2016-02-12-at-11.25.44-AM.png)
 
 [..more](https://en.wikipedia.org/wiki/Endianness)
 
