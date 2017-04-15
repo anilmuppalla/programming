@@ -83,10 +83,58 @@ Instruction pipelining is a technique that implements a form of parallelism call
 parallelism within a single processor. It therefore allows faster CPU throughput 
 (the number of instructions that can be executed in a unit of time) than would otherwise be possible 
 at a given clock rate. The basic instruction cycle is broken up into a series called a pipeline. 
-Rather than processing each instruction sequentially (finishing one instruction before starting the next), 
-each instruction is split up into a sequence of dependent steps so different steps can be executed 
-in parallel and instructions can be processed concurrently (starting one instruction before finishing 
-the previous one).
+Rather than processing each instruction sequentially (finishing one instruction before starting 
+the next), each instruction is split up into a sequence of dependent steps so different steps can
+be executed in parallel and instructions can be processed concurrently (starting one instruction
+before finishing the previous one).
 
 [..more](https://en.wikipedia.org/wiki/Instruction_pipelining)
 
+### Endianness and Byte Order
+
+Endian or endianness, refer to how bytes of a data word are ordered within memory. **Big-endian** 
+systems 
+are systems in which the most significant byte of the word is stored in the smallest address given 
+and the least significant byte is stored in the largest. 
+
+![Big Endian](https://en.wikipedia.org/wiki/Endianness#/media/File:Big-Endian.svg)
+
+**Little endian** systems are those in 
+which the least significant byte is stored in the smallest address and and the most significant
+byte is stored in the largest.
+
+![Little Endian](https://en.wikipedia.org/wiki/Endianness#/media/File:Little-Endian.svg)
+
+[..more](https://en.wikipedia.org/wiki/Endianness)
+
+### Difference between a system call and a library call
+
+Functions which the execution mode of a program from user mode to the kernel mode are called 
+System calls. Functions part of the standard C/C++/Java languages are called library functions. 
+System calls act as entry points into the OS kernel. Library function executes in the user space 
+while system calls execute in the kernel space. 
+
+For example : 
+1. fopen() : library call
+2. open(): system call
+
+System calls hand over the control to the kernel via an `interrupt` or a `trap`. A system call 
+switches from user mode (ring 3 on x86) to supervisor mode (ring 0 in x86). 
+
+Note: Is `malloc()` a system call? 
+No. It is a library function that uses the `brk()` and `sbrk()` system calls for memory allocation. 
+
+![library and System call](https://i.stack.imgur.com/BZ4bE.png)
+
+![sys call](http://faculty.salina.k-state.edu/tim/ossg/_images/sys_call.png)
+
+### System call parameters
+
+Three ways to pass parameters to the OS
+
+1. Parameters can be passed in registers.
+2. If there are more parameters than registers then parameters are stored in a block and the 
+address of the block is passed as a parameter to a register.
+3. Parameters can be pushed/popped of the stack by the OS.
+
+![system call paramters](http://faculty.salina.k-state.edu/tim/ossg/_images/sys_call_param.png)
